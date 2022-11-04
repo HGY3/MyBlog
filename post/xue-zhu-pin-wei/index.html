@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>学术品位 | Walk and Think</title>
+<meta name="description" content="学思行知百家言">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://HGY3.github.io/MyBlog/favicon.ico?v=1667537651499">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://HGY3.github.io/MyBlog/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://HGY3.github.io/MyBlog">
+        <img class="avatar" src="https://HGY3.github.io/MyBlog/images/avatar.png?v=1667537651499" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://HGY3.github.io/MyBlog">
+        <h1 class="site-title">Walk and Think</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="https://HGY3.github.io/MyBlog" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="https://HGY3.github.io/MyBlog/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="https://HGY3.github.io/MyBlog/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="https://HGY3.github.io/MyBlog/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">学术品位</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2022-08-29</span>
+            
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://HGY3.github.io/MyBlog/tag/_fCA4U0ld/">
+                    Science
+                    
+                  </a>
+                
+              </span>
+            
+          </div>
+          <div class="post-content" v-pre>
+            <p>良好的学术品位：</p>
+<p>基础学习<br>
+阅读经典</p>
+<p>学会辨别论文内容的严谨性和结论的适用性</p>
+<p>稳定和独立的科研条件</p>
+<p>科研成果</p>
+<p>Creative work: original idea, time, ability, Open Mind.</p>
+<p>Why? Try?</p>
+<p>Show me the data and code.</p>
+<p>阅读论文，敏锐地感知作者的意图、局限、研究条件和环境十分重要。有很多细节和思想并未直接说明或者难以描述，那些省略的内容可能更有启发意义。真正有价值的是对内容的理解和把握。</p>
+<p>思维敏锐：对细微差别的洞察与灵感<br>
+动手能力：实验操作与数据分析<br>
+专业热情：精神投入</p>
+<p>尽管可以阅读最前沿的论文，理解、视角、意识、环境的不同往往造成科研能力的不同。论文的内容落后于科研界的构想。了解和掌握基础研究背景与领域的核心问题，对论文的理解才有深度。</p>
+<p>科研资源：人，钱。<br>
+科研环境：行政管理，成果评价，工资待遇，科研传承，科学教育。</p>
+<p>Protocol 实验与数据分析，版本迭代。</p>
+
+          </div>
+        </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://HGY3.github.io/MyBlog/post/jian-yan-wen-jian-wan-zheng-xing/">
+              <h3 class="post-title">
+                下一篇：检验文件完整性
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan">学思行知百家言</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by HGY | <a class="rss" href="https://HGY3.github.io/MyBlog/atom.xml" target="_blank">RSS</a>
+</div>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>

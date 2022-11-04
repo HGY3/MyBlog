@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://HGY3.github.io/MyBlog</id>
+    <title>Walk and Think</title>
+    <updated>2022-11-04T07:57:31.932Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://HGY3.github.io/MyBlog"/>
+    <link rel="self" href="https://HGY3.github.io/MyBlog/atom.xml"/>
+    <subtitle>学思行知百家言</subtitle>
+    <logo>https://HGY3.github.io/MyBlog/images/avatar.png</logo>
+    <icon>https://HGY3.github.io/MyBlog/favicon.ico</icon>
+    <rights>All rights reserved 2022, Walk and Think</rights>
+    <entry>
+        <title type="html"><![CDATA[学术品位]]></title>
+        <id>https://HGY3.github.io/MyBlog/post/xue-zhu-pin-wei/</id>
+        <link href="https://HGY3.github.io/MyBlog/post/xue-zhu-pin-wei/">
+        </link>
+        <updated>2022-08-29T06:47:43.000Z</updated>
+        <content type="html"><![CDATA[<p>良好的学术品位：</p>
+<p>基础学习<br>
+阅读经典</p>
+<p>学会辨别论文内容的严谨性和结论的适用性</p>
+<p>稳定和独立的科研条件</p>
+<p>科研成果</p>
+<p>Creative work: original idea, time, ability, Open Mind.</p>
+<p>Why? Try?</p>
+<p>Show me the data and code.</p>
+<p>阅读论文，敏锐地感知作者的意图、局限、研究条件和环境十分重要。有很多细节和思想并未直接说明或者难以描述，那些省略的内容可能更有启发意义。真正有价值的是对内容的理解和把握。</p>
+<p>思维敏锐：对细微差别的洞察与灵感<br>
+动手能力：实验操作与数据分析<br>
+专业热情：精神投入</p>
+<p>尽管可以阅读最前沿的论文，理解、视角、意识、环境的不同往往造成科研能力的不同。论文的内容落后于科研界的构想。了解和掌握基础研究背景与领域的核心问题，对论文的理解才有深度。</p>
+<p>科研资源：人，钱。<br>
+科研环境：行政管理，成果评价，工资待遇，科研传承，科学教育。</p>
+<p>Protocol 实验与数据分析，版本迭代。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[检验文件完整性]]></title>
+        <id>https://HGY3.github.io/MyBlog/post/jian-yan-wen-jian-wan-zheng-xing/</id>
+        <link href="https://HGY3.github.io/MyBlog/post/jian-yan-wen-jian-wan-zheng-xing/">
+        </link>
+        <updated>2022-08-23T00:48:32.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<h3 id="md5-check">MD5 check</h3>
+<pre><code>### 1.Windows
+CertUtil -hashfile *.fastq.gz MD5
+
+### 2.Linux
+md5sum *.fastq.gz &gt; md5.txt
+md5sum -c md5.txt
+
+</code></pre>
+<h3 id="sha256sum-check">sha256sum check</h3>
+<pre><code>### 2.Linux
+sha256sum GATK.vcf.gz &gt; GATK.vcf.sha256
+sha256sum -c GATK.vcf.sha256
+
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[古文名篇1]]></title>
+        <id>https://HGY3.github.io/MyBlog/post/gu-wen-ming-pian-1/</id>
+        <link href="https://HGY3.github.io/MyBlog/post/gu-wen-ming-pian-1/">
+        </link>
+        <updated>2022-08-18T11:55:17.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<h3 id="1思旧赋-向秀-约227-272-魏晋">1.《思旧赋》 向秀 (约227-272, 魏晋)</h3>
+<pre><code>余与嵇康、吕安居止接近，其人并有不羁之才。
+然嵇志远而疏，吕心旷而放，其后各以事见法。
+嵇博综技艺，于丝竹特妙。临当就命，顾视日影，索琴而弹之。
+余逝将西迈，经其旧庐。于时日薄虞渊，寒冰凄然。
+邻人有吹笛者，发音寥亮。
+
+追思曩昔游宴之好，感音而叹，故作赋云：
+将命适于远京兮，遂旋反而北徂。
+济黄河以泛舟兮，经山阳之旧居。
+瞻旷野之萧条兮，息余驾乎城隅。
+践二子之遗迹兮，历穷巷之空庐。
+叹黍离之愍周兮，悲麦秀于殷墟。
+惟古昔以怀今兮，心徘徊以踌躇。
+栋宇存而弗毁兮，形神逝其焉知。
+昔李斯之受罪兮，叹黄犬而长吟。
+悼嵇生之永辞兮，顾日影而弹琴。
+托运遇于领会兮，寄余命于寸阴。
+听鸣笛之慷慨兮，妙声绝而复寻。
+停驾言其将迈兮，遂援翰而写心。
+</code></pre>
+<br/>
+<h3 id="2枯树赋-庾信513-581-南北朝">2.《枯树赋》 庾信(513-581, 南北朝)</h3>
+<pre><code>殷仲文风流儒雅，海内知名。世异时移，出为东阳太守。
+常忽忽不乐，顾庭槐而叹曰：“此树婆娑，生意尽矣！”。
+
+至如白鹿贞松，青牛文梓。根柢盘破，山崖表里。桂何事而销亡，桐何为而半死？wan
+昔之三河徙植，九畹移根。开花建始之殿，落实睢阳之园。声含嶰谷，曲抱《云门》。
+将雏集凤，比翼巢鸳。临风亭而唳鹤，对月峡而吟猿。乃有拳曲拥肿，盘坳反复。
+熊彪顾盼，鱼龙起伏。节竖山连，文横水蹙。匠石惊视，公输眩目。雕镌始就，剞劂仍加。
+平鳞铲甲，落角摧牙。重重碎锦，片片真花。纷披草树，散乱烟霞。
+
+若夫松子、古度、平仲、君迁，森梢百顷，槎枿千年。
+秦则大夫受职，汉则将军坐焉。莫不苔埋菌压，鸟剥虫穿。
+或低垂于霜露，或撼顿于风烟。
+东海有白木之庙，西河有枯桑之社，北陆以杨叶为关，南陵以梅根作冶。
+小山则丛桂留人，扶风则长松系马。岂独城临细柳之上，塞落桃林之下。
+
+若乃山河阻绝，飘零离别。拔本垂泪，伤根沥血。火入空心，膏流断节。
+横洞口而敧卧，顿山腰而半折，文斜者百围冰碎，理正者千寻瓦裂。
+载瘿衔瘤，藏穿抱穴，木魅睒睗，山精妖孽。
+
+况复风云不感，羁旅无归。未能采葛，还成食薇。
+沉沦穷巷，芜没荆扉，既伤摇落，弥嗟变衰。
+《淮南子》云：“木叶落，长年悲。”斯之谓矣。
+乃歌曰：“建章三月火，黄河万里槎。若非金谷满园树，即是河阳一县花。&quot;
+桓大司马闻而叹曰：”昔年种树，依依汉南。今看摇落，凄怆江潭。树犹如此，人何以堪！“
+</code></pre>
+<br/>
+<h3 id="3祭十二郎文-韩愈768-824-唐代">3.《祭十二郎文》 韩愈(768-824, 唐代)</h3>
+<pre><code>年、月、日，季夫愈闻汝丧之七日，乃能衔哀致诚，使建中远具时羞之奠，告汝十二郎之灵：
+
+呜呼！吾少孤，及长，不省所怙，惟兄嫂是依。中年兄殁南方，吾与汝俱幼，从嫂归葬河阳。
+既又与汝就食江南，零丁孤苦，未尝一日相离也。吾上有三兄，皆不幸早世。
+承先人后者，在孙惟汝，在子惟吾。两世一身，形单影只。
+嫂尝抚汝指吾而言曰：”韩氏两世，惟此而已！”
+汝时尤小，当不复记忆；吾时虽能记忆，亦未知其言之悲也。
+
+吾年十九，始来京城。其后四年，而归视汝。又四年，吾往河阳省坟墓，遇汝从嫂丧来葬。
+又二年，吾佐董丞相于汴州，汝来省吾，止一岁，请归取其孥。明年，丞相薨，吾去汴州，汝不果来。
+是年，吾佐戎徐州，使取汝者始行，吾又罢去，汝又不果来。
+吾念汝从于东，东亦客也，不可以久；图久远者，莫如西归，将成家而致汝。
+呜呼！孰谓汝遽去吾而殁乎！吾与汝俱少年，以为虽暂相别，终当久相与处。
+故舍汝而旅食京师，以求斗斛之禄。诚知其如此，虽万乘之公相，吾不以一日辍汝而就也。
+
+去年，孟东野往，吾书与汝曰：“吾年未四十，而视茫茫，而发苍苍，而齿牙动摇。
+念诸父与诸兄，皆康强而早世，如吾之衰者，其能久存乎？
+吾不可去，汝不肯来，恐旦暮死，而汝抱无涯之戚也。”
+孰谓少者殁而长者存，强者夭而病者全乎？
+
+呜呼！其信然邪？其梦邪？其传之非其真邪？信也，吾兄之盛德而夭其嗣乎？汝之纯明而不克蒙其泽乎？
+少者强者而夭殁，长者衰者而存全乎？未可以为信也！
+梦也，传之非其真也，东野之书，耿兰之报，何为而在吾侧也？
+呜呼！其信然矣！吾兄之盛德而夭其嗣矣，汝之纯明宜业其家者，不克蒙其泽矣。
+所谓天者诚难测，而神者诚难明矣。所谓理者不可推，而寿者不可知矣。
+
+虽然，吾自今年来，苍苍者或化而为白矣；动摇者或脱而落矣，毛血日益衰，志气日益微，几何不从汝而死也？
+死而有知，其几何离？其无知，悲不几时，而不悲者无穷期矣。
+
+汝之子始十岁，吾之子始五岁，少而强者不可保，如此孩提者，又可冀其成立邪？呜呼哀哉！呜呼哀哉！
+
+汝去年书云：“比得软脚病，往往而剧。”吾曰：“是疾也，江南之人，常常有之。”未始以为忧也。
+呜呼，其竟以此而殒其生乎？抑别有疾而至斯极乎？
+
+汝之书，六月十七日；东野云，汝殁以六月二日；耿兰之报无月日。
+盖东野之使者不知问家人以月日，如耿兰之报，不知当言月日。
+东野与吾书，乃问使者，使者妄称以应之乎。其然乎？其不然乎？
+
+今吾使建中祭汝，吊汝之孤与汝之乳母。彼有食可守，以待终丧，则待终丧而取以来；如不能守以终丧，则遂取以来。
+其余奴婢，并令守汝丧。吾力能改葬，终葬汝于先人之兆，然后惟其所愿。
+
+呜呼！汝病吾不知时，汝殁吾不知日，生不能相养以共居，殁不能抚汝以尽哀，敛不凭其棺，窆不临其穴。
+吾行负神明，而使汝夭。
+不孝不慈，而不得与汝相养以生，相守以死。
+一在天之涯，一在地之角，生而影不与吾形相依，死而魂不与吾梦相接，吾实为之，其又何尤！
+彼苍者天，曷其有极！自今已往，吾其无意于人世矣！当
+求数顷之田于伊、颍之上，以待余年。
+教吾子与汝子，幸其成；长吾女与汝女，待其嫁，如此而已。
+
+呜呼，言有穷而情不可终，汝其知也邪？其不知也邪？呜呼哀哉！尚飨！
+</code></pre>
+<br/>
+<h3 id="4念奴娇登多景楼-陈亮1143-1194-南宋">4.《念奴娇·登多景楼》 陈亮(1143-1194, 南宋)</h3>
+<pre><code>危楼还望，叹此意、今古几人曾会？鬼设神施，浑认作、天限南疆北界。
+一水横陈，连岗三面，做出争雄势。六朝何事，只成门户私计！
+
+因笑王谢诸人，登高怀远，也学英雄涕。凭却长江，管不到，河洛腥膻无际。
+正好长驱，不须反顾，寻取中流誓。小儿破贼，势成宁问强对！
+</code></pre>
+<br/>
+<h3 id="5山坡羊潼关怀古-张养浩1270-1329-元代">5.《山坡羊·潼关怀古》 张养浩(1270-1329, 元代)</h3>
+<pre><code>峰峦如聚，波涛如怒，山河表里潼关路。望西都，意踌躇。
+
+伤心秦汉经行处，宫阙万间都做了土。兴，百姓苦；亡，百姓苦！
+
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Python之禅]]></title>
+        <id>https://HGY3.github.io/MyBlog/post/the-zen-of-python/</id>
+        <link href="https://HGY3.github.io/MyBlog/post/the-zen-of-python/">
+        </link>
+        <updated>2022-08-17T07:32:28.000Z</updated>
+        <summary type="html"><![CDATA[<p>The Zen of Python<br>
+这些都是很好的代码设计哲学，每个有追求的Python程序员都应该记住并实践。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>The Zen of Python<br>
+这些都是很好的代码设计哲学，每个有追求的Python程序员都应该记住并实践。</p>
+<!-- more -->
+<pre><code>&gt;&gt;&gt; import this
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+
+</code></pre>
+<p>Python之禅：<br>
+1.Beautiful is better than ugly.<br>
+优美优于丑陋。</p>
+<p>2.Explicit is better than implicit.<br>
+简明优于隐晦。</p>
+<p>3.Simple is better than complex.<br>
+简单优于复杂。</p>
+<p>4.Complex is better than complicated.<br>
+复杂优于凌乱。</p>
+<p>5.Flat is better than nested.<br>
+扁平优于嵌套。</p>
+<p>6.Sparse is better than dense.<br>
+稀疏优于稠密。</p>
+<p>7.Readability counts.<br>
+可读性很重要。</p>
+<p>8.Special cases aren't special enough to break the rules.<br>
+特例不可违背原则。</p>
+<p>9.Although praticality beats purity.<br>
+即使实用性优于纯粹性。</p>
+<p>10.Errors should never pass silently.<br>
+错误绝不能悄悄忽略。</p>
+<p>11.Unless explicitly silenced.<br>
+除非错误明确需要如此。</p>
+<p>12.In the face of ambiguity,refuse the temptation to guess.<br>
+面对不确定性，拒绝盲目猜测。</p>
+<p>13.There should be one---and preferably only one---obvious way to do it.<br>
+任何问题应该有一种，且最好只有一种，显而易见的解决方法。</p>
+<p>14.Although that way may not be obvious at first unless you're Dutch.<br>
+尽管这方法一开始并非如此直观，除非你是荷兰人。</p>
+<p>15.Now is better than never.<br>
+做优于不做。</p>
+<p>16.Although never is often better than <em>right</em> now.<br>
+然而不假思索还不如不做。</p>
+<p>17.If the implementation is hard to explain, it's a bad idea.<br>
+很难解释的，必然是坏方法。</p>
+<p>18.If the implementation is easy to explain, it may be a good idea.<br>
+很好解释的，可能是好方法。</p>
+<p>19.Namespaces are one honking great idea---let's do more of those.<br>
+命名空间是个绝妙的主意，我们应该好好利用它。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[基本问题与答案]]></title>
+        <id>https://HGY3.github.io/MyBlog/post/the-basic-questions-and-the-final-answers/</id>
+        <link href="https://HGY3.github.io/MyBlog/post/the-basic-questions-and-the-final-answers/">
+        </link>
+        <updated>2022-08-03T01:35:17.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="the-basic-questions-and-the-final-answers">The Basic Questions and the final answers</h1>
+<h2 id="question-1">Question 1</h2>
+<pre><code>存在的意义？ (What is the meaning of existence?)
+回答：无。          (Answer :Nothing.)
+</code></pre>
+<h2 id="question-2">Question 2</h2>
+<pre><code>从0到1？(How can we go from 0 to 1.)
+回答：实事求是。   (Answer: Seek truth from facts.)
+</code></pre>
+<h2 id="question-3">Question 3</h2>
+<pre><code>生存的法则是什么？ （What is the law of survival.）
+回答：通变。 （Answer:Flexible.）
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[推荐的网站]]></title>
+        <id>https://HGY3.github.io/MyBlog/post/tui-jian-de-wang-zhan/</id>
+        <link href="https://HGY3.github.io/MyBlog/post/tui-jian-de-wang-zhan/">
+        </link>
+        <updated>2022-07-30T07:54:06.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="01-书格">01 书格</h2>
+<p>书格是一个自由开放的在线古籍图书馆。致力于开放式分享、介绍、推荐有价值的古籍善本，并鼓励将文化艺术作品数字化归档。</p>
+<pre><code>https://new.shuge.org/
+</code></pre>
+<h2 id="02-全历史">02 全历史</h2>
+<pre><code>https://www.allhistory.com/
+</code></pre>
+<h2 id="03-麦田音乐网">03 麦田音乐网</h2>
+<p>麦田音乐网建于2006年，是一个简单纯粹的音乐、文字分享网站。在浮躁、喧嚣的互联网中，希望你能在这里静下来。</p>
+<pre><code>https://www.mtyyw.com/
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[聊聊科普]]></title>
+        <id>https://HGY3.github.io/MyBlog/post/liao-liao-ke-pu/</id>
+        <link href="https://HGY3.github.io/MyBlog/post/liao-liao-ke-pu/">
+        </link>
+        <updated>2022-07-29T11:25:50.000Z</updated>
+        <content type="html"><![CDATA[<p>科普的方式有很多种：开讲座，科普宣传日，实验室开放日，博物馆，兴趣班，网络视频博主，专栏科普作家。</p>
+<p>科普的意义很大，应该说是关乎最根本的科学发展问题，创造接触科学的环境，其一可以引起有志于科研的人们的兴趣，其二可以提高人们的科学素养。</p>
+<p>科普最关键的是要实事求是，最有效的方式是有趣，最直接的方式是有参与感。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[遗传进化算法]]></title>
+        <id>https://HGY3.github.io/MyBlog/post/yi-chuan-jin-hua-suan-fa/</id>
+        <link href="https://HGY3.github.io/MyBlog/post/yi-chuan-jin-hua-suan-fa/">
+        </link>
+        <updated>2022-07-29T11:16:26.000Z</updated>
+        <content type="html"><![CDATA[<p>遗传进化算法</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[序列比对算法]]></title>
+        <id>https://HGY3.github.io/MyBlog/post/xu-lie-bi-dui-suan-fa/</id>
+        <link href="https://HGY3.github.io/MyBlog/post/xu-lie-bi-dui-suan-fa/">
+        </link>
+        <updated>2022-07-29T11:14:34.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="01-序列">01 序列</h2>
+<p>DNA序列<br>
+蛋白质序列</p>
+<h2 id="02-比对算法">02 比对算法</h2>
+<p>相似性（similarity）：计算生物序列之间的相似程度  [(相似残基+相同残基）/总长度 *100]<br>
+一致性 （identify）: 计算生物序列之间的一致程度（相同残基/总长度 *100）<br>
+同源性 （homology）: 计算生物序列之间的共同祖先<br>
+空位罚分：将两条不同长度的序列通过引入空位的方式对齐成相同长度，然后计算两条序列的相似度和一致度。<br>
+替换记分矩阵（subsitution matrix）:反映残基之间相互替换率的矩阵，描述残基两两相似的量化关系。</p>
+<pre><code>DNA序列替换记分矩阵：等价矩阵(unitary matrix）
+相同碱基之间的匹配得分=1 
+不同碱基之间的替换得分=0
+</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th style="text-align:center">A</th>
+<th style="text-align:center">T</th>
+<th style="text-align:center">C</th>
+<th style="text-align:center">G</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">A</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+</tr>
+<tr>
+<td style="text-align:center">T</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+</tr>
+<tr>
+<td style="text-align:center">C</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0</td>
+</tr>
+<tr>
+<td style="text-align:center">G</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">1</td>
+</tr>
+</tbody>
+</table>
+<pre><code>DNA序列替换记分矩阵：转换-颠换矩阵(transition-transversion matrix)
+相同碱基之间的匹配得分=1
+不同碱基之间的转换得分=-1 （嘌呤-嘌呤、嘧啶-嘧啶）
+不同碱基之间的颠换得分=-5 （嘌呤-嘧啶）
+</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th style="text-align:center">A(腺嘌呤)</th>
+<th style="text-align:center">T(胸腺嘧啶)</th>
+<th style="text-align:center">C(胞嘧啶)</th>
+<th style="text-align:center">G(鸟嘌呤)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">A(腺嘌呤)</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">-5</td>
+<td style="text-align:center">-5</td>
+<td style="text-align:center">-1</td>
+</tr>
+<tr>
+<td style="text-align:center">T(胸腺嘧啶)</td>
+<td style="text-align:center">-5</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">-1</td>
+<td style="text-align:center">-5</td>
+</tr>
+<tr>
+<td style="text-align:center">C(胞嘧啶)</td>
+<td style="text-align:center">-5</td>
+<td style="text-align:center">-1</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">-5</td>
+</tr>
+<tr>
+<td style="text-align:center">G(鸟嘌呤)</td>
+<td style="text-align:center">-1</td>
+<td style="text-align:center">-5</td>
+<td style="text-align:center">-5</td>
+<td style="text-align:center">1</td>
+</tr>
+</tbody>
+</table>
+<pre><code>DNA序列替换记分矩阵：BLAST矩阵
+</code></pre>
+<h3 id="全局比对">全局比对</h3>
+<p>###局部比对</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[定风波-苏轼]]></title>
+        <id>https://HGY3.github.io/MyBlog/post/ding-feng-bo-su-shi/</id>
+        <link href="https://HGY3.github.io/MyBlog/post/ding-feng-bo-su-shi/">
+        </link>
+        <updated>2022-07-28T11:54:45.000Z</updated>
+        <content type="html"><![CDATA[<pre><code>三月七日，沙湖道中遇雨。雨具先去，同行皆狼狈，余独不觉。已而遂晴，故作此词。
+
+莫听穿林打叶声，何妨吟啸且徐行。竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。
+料峭春风吹酒冷，微冷，山头斜照却相迎。回首向来萧瑟处，归去。也无风雨也无晴。
+</code></pre>
+]]></content>
+    </entry>
+</feed>
