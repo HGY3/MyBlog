@@ -1,0 +1,257 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>序列比对算法 | Walk and Think</title>
+<meta name="description" content="学思行知百家言">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://HGY3.github.io/MyBlog/favicon.ico?v=1691990128022">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://HGY3.github.io/MyBlog/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://HGY3.github.io/MyBlog">
+        <img class="avatar" src="https://HGY3.github.io/MyBlog/images/avatar.png?v=1691990128022" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://HGY3.github.io/MyBlog">
+        <h1 class="site-title">Walk and Think</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="https://HGY3.github.io/MyBlog" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="https://HGY3.github.io/MyBlog/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="https://HGY3.github.io/MyBlog/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="https://HGY3.github.io/MyBlog/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">序列比对算法</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2022-07-29</span>
+            
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://HGY3.github.io/MyBlog/tag/_fCA4U0ld/">
+                    Science
+                    
+                  </a>
+                
+              </span>
+            
+          </div>
+          <div class="post-content" v-pre>
+            <h2 id="01-序列">01 序列</h2>
+<p>DNA序列<br>
+蛋白质序列</p>
+<h2 id="02-比对算法">02 比对算法</h2>
+<p>相似性（similarity）：计算生物序列之间的相似程度  [(相似残基+相同残基）/总长度 *100]<br>
+一致性 （identify）: 计算生物序列之间的一致程度（相同残基/总长度 *100）<br>
+同源性 （homology）: 计算生物序列之间的共同祖先<br>
+空位罚分：将两条不同长度的序列通过引入空位的方式对齐成相同长度，然后计算两条序列的相似度和一致度。<br>
+替换记分矩阵（subsitution matrix）:反映残基之间相互替换率的矩阵，描述残基两两相似的量化关系。</p>
+<pre><code>DNA序列替换记分矩阵：等价矩阵(unitary matrix）
+相同碱基之间的匹配得分=1 
+不同碱基之间的替换得分=0
+</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th style="text-align:center">A</th>
+<th style="text-align:center">T</th>
+<th style="text-align:center">C</th>
+<th style="text-align:center">G</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">A</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+</tr>
+<tr>
+<td style="text-align:center">T</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+</tr>
+<tr>
+<td style="text-align:center">C</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0</td>
+</tr>
+<tr>
+<td style="text-align:center">G</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">1</td>
+</tr>
+</tbody>
+</table>
+<pre><code>DNA序列替换记分矩阵：转换-颠换矩阵(transition-transversion matrix)
+相同碱基之间的匹配得分=1
+不同碱基之间的转换得分=-1 （嘌呤-嘌呤、嘧啶-嘧啶）
+不同碱基之间的颠换得分=-5 （嘌呤-嘧啶）
+</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th style="text-align:center">A(腺嘌呤)</th>
+<th style="text-align:center">T(胸腺嘧啶)</th>
+<th style="text-align:center">C(胞嘧啶)</th>
+<th style="text-align:center">G(鸟嘌呤)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">A(腺嘌呤)</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">-5</td>
+<td style="text-align:center">-5</td>
+<td style="text-align:center">-1</td>
+</tr>
+<tr>
+<td style="text-align:center">T(胸腺嘧啶)</td>
+<td style="text-align:center">-5</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">-1</td>
+<td style="text-align:center">-5</td>
+</tr>
+<tr>
+<td style="text-align:center">C(胞嘧啶)</td>
+<td style="text-align:center">-5</td>
+<td style="text-align:center">-1</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">-5</td>
+</tr>
+<tr>
+<td style="text-align:center">G(鸟嘌呤)</td>
+<td style="text-align:center">-1</td>
+<td style="text-align:center">-5</td>
+<td style="text-align:center">-5</td>
+<td style="text-align:center">1</td>
+</tr>
+</tbody>
+</table>
+<pre><code>DNA序列替换记分矩阵：BLAST矩阵
+</code></pre>
+<h3 id="全局比对">全局比对</h3>
+<p>###局部比对</p>
+
+          </div>
+        </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://HGY3.github.io/MyBlog/post/ru-he-xue-xi-tong-ji-xue/">
+              <h3 class="post-title">
+                下一篇：如何学习统计学
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan">学思行知百家言</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by HGY | <a class="rss" href="https://HGY3.github.io/MyBlog/atom.xml" target="_blank">RSS</a>
+</div>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>
